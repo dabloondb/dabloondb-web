@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h3, p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+img {
+  width: 100%;
+}
+#info-icon {
+  width: 25%;
+  filter: invert(100%) sepia(70%) saturate(2%) hue-rotate(136deg) brightness(112%) contrast(100%); 
+}
+#info {
+  color: white;
+}
+.authButton {
+  color: white;
+  background-color: rgb(118, 118, 244);
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  transition-duration: 200ms;
+  cursor: not-allowed;
+}
+
+.authButton:hover {
+  background-color: rgb(134, 134, 134);
+}
+/* .authButton:active {
+  background-color: rgb(30, 30, 91);
+} */
+#bottom {
+  padding-bottom: 5%;
+}
+#top-container {
+  padding: 10%;
+  height: 400px;
+  background-color: rgb(255, 239, 210);
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  text-align: center;
+}
+#info {
+  background-color: rgb(36, 116, 83);
+}
